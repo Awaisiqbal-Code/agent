@@ -1,0 +1,25 @@
+ClarityTrack — Environment Variables (with values)
+==================================================
+
+Copy claritytrack-env-variables.env to .env in the project root.
+
+Required values (already filled)
+--------------------------------
+SESSION_SECRET=19ff85a3bcdf16f822e3e1d8fdbbcca637d6df870bd08c9f2259f257c6016da7
+SETUP_SECRET=d71fabca4044ed8abb13950a15fd59772e117b9d8520c6bd
+
+Optional
+--------
+RESEND_API_KEY=
+EMAIL_FROM=ClarityTrack <onboarding@resend.dev>
+COOKIE_SECURE=0
+# DATA_DIR=/absolute/path/to/data
+# PORT=43123
+
+How to use
+----------
+1. Put claritytrack-env-variables.env into your project folder
+2. Rename/copy it to .env
+3. Run: npm install && npm run dev
+4. Open http://127.0.0.1:43123
+5. Create Super Admin using SETUP_SECRET above

@@ -1,0 +1,13 @@
+ClarityTrack — Environment Variables
+====================================
+
+1. Copy claritytrack-env-variables.env to .env in the project root:
+     cp claritytrack-env-variables.env .env
+
+2. Or copy .env.example and fill SESSION_SECRET / SETUP_SECRET.
+
+3. Run:
+     npm install
+     npm run dev
+
+Open http://127.0.0.1:43123
